@@ -6,6 +6,7 @@
 body {
     position: relative;
     font-family: 'Courier New', Courier, monospace;
+    background-color: mintcream;
 }
 
 header {
@@ -32,6 +33,10 @@ li {
     margin-left: 20px;
 }
 
+img {
+    border: 5px solid aqua;
+}
+
 .center {
     text-align: center;
 }
@@ -43,4 +48,26 @@ li {
 
 .right {
     text-align: right;
+}
+
+#contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid slategray;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+li {
+    display: inline;
 }
